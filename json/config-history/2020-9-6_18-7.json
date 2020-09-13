@@ -1,0 +1,63 @@
+{
+    "title": "Glen Coden App",
+    "description": "This app was created with Glen Coden Web Page Generator.",
+    "global": {
+        "fontTypes": [
+            {
+                "name": "'Roboto', 'Arial', 'sans-serif'"
+            }
+        ],
+        "fontSizes": [
+            16,
+            24,
+            32,
+            54
+        ],
+        "pageSize": [
+            {
+                "width": 90,
+                "height": 90
+            },
+            {
+                "width": 80,
+                "height": 85
+            }
+        ],
+        "colors": [
+            "#000000",
+            "#F9F9F9",
+            "#FFFFFF"
+        ],
+        "maxPageWidth": 2500,
+        "bgColor": 0,
+        "overlayColor": 4,
+        "themeColor": 0,
+        "fadeInTime": 0.2,
+        "loadingTimeout": 10,
+        "usePortraitImages": true
+    },
+    "components": [
+        {
+            "component": "Page",
+            "id": "0rzI8zgEA",
+            "rows": 0,
+            "fromGlobal": [
+                "pageSize",
+                "maxPageWidth",
+                {
+                    "key": "bgColor",
+                    "value": "colors",
+                    "property": 0
+                }
+            ],
+            "children": []
+        },
+        {
+            "component": "LoadingOverlay",
+            "id": "gfDo5OG5-L",
+            "children": []
+        }
+    ],
+    "_lastUpdated": "2020-09-06T16:26:07.397Z",
+    "initialState": {}
+}

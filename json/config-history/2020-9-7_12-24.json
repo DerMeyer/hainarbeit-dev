@@ -1,0 +1,128 @@
+{
+    "title": "Glen Coden App",
+    "description": "This app was created with Glen Coden Web Page Generator.",
+    "global": {
+        "fontTypes": [
+            {
+                "name": "'Roboto', 'Arial', 'sans-serif'"
+            }
+        ],
+        "fontSizes": [
+            16,
+            24,
+            32,
+            54
+        ],
+        "contentSize": [
+            {
+                "width": 0.9,
+                "height": 0.9
+            },
+            {
+                "width": 0.8,
+                "height": 0.9
+            }
+        ],
+        "pageWidth": 1,
+        "maxContentWidth": 2500,
+        "colors": [
+            "#000000",
+            "#F9F9F9",
+            "#FFFFFF"
+        ],
+        "bgColor": 0,
+        "overlayColor": 4,
+        "themeColor": 0,
+        "fadeInTime": 0.2,
+        "loadingTimeout": 10,
+        "usePortraitImages": true,
+        "maxPageWidth": 0
+    },
+    "components": [
+        {
+            "component": "Page",
+            "id": "7x5uWoxUp",
+            "rows": 0,
+            "minHeight": "viewport",
+            "fromGlobal": [
+                "contentSize",
+                "maxContentWidth",
+                "pageWidth",
+                "maxPageWidth",
+                {
+                    "key": "bgColor",
+                    "value": "colors",
+                    "property": 0
+                }
+            ],
+            "css": {
+                "border": "50px solid lime",
+                "fromGlobal": {
+                    "key": "borderColor",
+                    "value": "colors",
+                    "property": 2
+                }
+            },
+            "children": [
+                {
+                    "component": "Box",
+                    "id": "uNCN3-tfs",
+                    "p": 100,
+                    "fontSize": 2,
+                    "width": [
+                        1,
+                        0.3
+                    ],
+                    "color": 0,
+                    "bg": 2,
+                    "fromGlobal": [
+                        "fontSizes",
+                        "colors"
+                    ],
+                    "children": []
+                },
+                {
+                    "component": "Box",
+                    "id": "z6dyK4qc5",
+                    "p": 100,
+                    "fontSize": 2,
+                    "width": [
+                        1,
+                        0.3
+                    ],
+                    "color": 0,
+                    "bg": 2,
+                    "fromGlobal": [
+                        "fontSizes",
+                        "colors"
+                    ],
+                    "children": []
+                }
+            ]
+        },
+        {
+            "component": "Page",
+            "id": "zqpvmlq53G",
+            "rows": 0,
+            "minHeight": "viewport",
+            "fromGlobal": [
+                "contentSize",
+                "maxContentWidth",
+                "pageWidth",
+                "maxPageWidth",
+                {
+                    "key": "bgColor",
+                    "value": "colors",
+                    "property": 2
+                }
+            ],
+            "children": []
+        },
+        {
+            "component": "LoadingOverlay",
+            "id": "gfDo5OG5-L"
+        }
+    ],
+    "_lastUpdated": "2020-09-07T10:27:24.882Z",
+    "initialState": {}
+}

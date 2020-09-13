@@ -1,0 +1,12 @@
+{
+    "name": "Glen Coden App",
+    "icons": [
+        {
+            "src": "favicon.png",
+            "type": "image/png",
+            "sizes": "32x32"
+        }
+    ],
+    "start_url": ".",
+    "display": "standalone"
+}
