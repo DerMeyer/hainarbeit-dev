@@ -1,0 +1,134 @@
+{
+    "title": "Hainarbeit",
+    "description": "Shared working space by Volkspark Friedrichshain park in Berlin.",
+    "global": {
+        "fontTypes": [
+            {
+                "name": "'Roboto', 'Arial', 'sans-serif'"
+            }
+        ],
+        "contentSize": [
+            {
+                "width": 0.9,
+                "height": 0.9
+            },
+            {
+                "width": 1,
+                "height": 1
+            }
+        ],
+        "pageWidth": 1,
+        "maxContentWidth": 1100,
+        "bg": "white",
+        "timeTilFadeIn": 0.2,
+        "fadeInTime": 0.5,
+        "loadingTimeout": 10,
+        "usePortraitImages": true,
+        "maxPageWidth": 0
+    },
+    "theme": {
+        "breakpoints": [
+            "576px",
+            "768px",
+            "992px",
+            "1200px"
+        ],
+        "fontSizes": [
+            16,
+            24,
+            32,
+            48,
+            64
+        ],
+        "colors": {
+            "black": "#000",
+            "lightgrey": "#EDEDED",
+            "darkgrey": "#2F2E2E",
+            "heading": "#2F2E2E",
+            "white": "#fff"
+        },
+        "space": [
+            0,
+            4,
+            8,
+            16,
+            32,
+            64,
+            128,
+            256
+        ],
+        "fonts": {
+            "body": "system-ui, sans-serif",
+            "heading": "inherit",
+            "monospace": "'Menlo', 'monospace'"
+        },
+        "fontWeights": {
+            "body": 400,
+            "heading": 700,
+            "bold": 700
+        },
+        "lineHeights": {
+            "body": 1.5,
+            "heading": 1.25
+        },
+        "shadows": {
+            "small": "0 0 4px rgba(0, 0, 0, .125)",
+            "large": "0 0 24px rgba(0, 0, 0, .125)"
+        },
+        "variants": {},
+        "text": {},
+        "buttons": {
+            "primary": {
+                "color": "darkgrey"
+            }
+        }
+    },
+    "components": [
+        {
+            "component": "Page",
+            "id": "nMyMSYVpl",
+            "rows": 0,
+            "minHeight": 0,
+            "fromGlobal": [
+                "contentSize",
+                "maxContentWidth",
+                "pageWidth",
+                "maxPageWidth"
+            ],
+            "children": [
+                {
+                    "component": "Image",
+                    "id": "qm1x4x19id",
+                    "source": "images/bg-with-logo.jpg",
+                    "css": {
+                        "width": "100%"
+                    }
+                },
+                {
+                    "component": "Flex",
+                    "id": "HBNJTEgxR",
+                    "flexDirection": "column",
+                    "children": [
+                        {
+                            "component": "Heading",
+                            "id": "BarhuT27zC",
+                            "text": {
+                                "en": "FEATURED PROJECTS"
+                            },
+                            "color": "heading",
+                            "as": "h1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "component": "LoadingOverlay",
+            "id": "gfDo5OG5-L",
+            "color": "black",
+            "bg": "white"
+        }
+    ],
+    "_lastUpdated": "2020-09-13T19:50:53.805Z",
+    "initialState": {}
+}

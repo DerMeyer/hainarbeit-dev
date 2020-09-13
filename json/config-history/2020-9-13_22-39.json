@@ -1,0 +1,255 @@
+{
+    "title": "Hainarbeit",
+    "description": "Shared working space by Volkspark Friedrichshain park in Berlin.",
+    "global": {
+        "fontTypes": [
+            {
+                "name": "'Roboto', 'Arial', 'sans-serif'"
+            }
+        ],
+        "contentSize": [
+            {
+                "width": 0.9,
+                "height": 0.9
+            },
+            {
+                "width": 1,
+                "height": 1
+            }
+        ],
+        "pageWidth": 1,
+        "maxContentWidth": 1100,
+        "bg": "white",
+        "timeTilFadeIn": 0.2,
+        "fadeInTime": 0.5,
+        "loadingTimeout": 10,
+        "usePortraitImages": true,
+        "maxPageWidth": 0
+    },
+    "theme": {
+        "breakpoints": [
+            "576px",
+            "768px",
+            "992px",
+            "1200px"
+        ],
+        "fontSizes": [
+            16,
+            24,
+            32,
+            48,
+            64
+        ],
+        "colors": {
+            "black": "#000",
+            "lightgrey": "#EDEDED",
+            "darkgrey": "#2F2E2E",
+            "heading": "#2F2E2E",
+            "white": "#fff"
+        },
+        "space": [
+            0,
+            4,
+            8,
+            16,
+            32,
+            64,
+            128,
+            256
+        ],
+        "fonts": {
+            "body": "system-ui, sans-serif",
+            "heading": "inherit",
+            "monospace": "'Menlo', 'monospace'"
+        },
+        "fontWeights": {
+            "body": 400,
+            "heading": 700,
+            "bold": 700
+        },
+        "lineHeights": {
+            "body": 1.5,
+            "heading": 1.25
+        },
+        "shadows": {
+            "small": "0 0 4px rgba(0, 0, 0, .125)",
+            "large": "0 0 24px rgba(0, 0, 0, .125)"
+        },
+        "variants": {},
+        "text": {},
+        "buttons": {
+            "primary": {
+                "color": "darkgrey"
+            }
+        }
+    },
+    "components": [
+        {
+            "component": "Page",
+            "id": "nMyMSYVpl",
+            "rows": 0,
+            "minHeight": 0,
+            "fromGlobal": [
+                "contentSize",
+                "maxContentWidth",
+                "pageWidth",
+                "maxPageWidth"
+            ],
+            "children": [
+                {
+                    "component": "Image",
+                    "id": "qm1x4x19id",
+                    "source": "images/bg-with-logo.jpg",
+                    "css": {
+                        "width": "100%"
+                    }
+                },
+                {
+                    "component": "Flex",
+                    "id": "HBNJTEgxR",
+                    "flexDirection": "column",
+                    "children": [
+                        {
+                            "component": "Heading",
+                            "id": "BarhuT27zC",
+                            "text": {
+                                "en": "FEATURED PROJECTS"
+                            },
+                            "color": "heading",
+                            "as": "h2"
+                        },
+                        {
+                            "component": "Flex",
+                            "id": "b-Yad2HG1",
+                            "justifyContent": "space-between",
+                            "flexDirection": "",
+                            "children": [
+                                {
+                                    "component": "Box",
+                                    "id": "Mdp_67-hR",
+                                    "width": 0.3,
+                                    "p": 0,
+                                    "m": 0,
+                                    "fontSize": 0,
+                                    "color": "",
+                                    "bg": "",
+                                    "children": [
+                                        {
+                                            "component": "Heading",
+                                            "id": "pwjwhljT62",
+                                            "text": {
+                                                "en": "SAN*JUAN*VILLA"
+                                            },
+                                            "color": "",
+                                            "as": "h1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "component": "Box",
+                                    "id": "ScvxHbHhYE",
+                                    "width": 0.3,
+                                    "p": 0,
+                                    "m": 0,
+                                    "fontSize": 0,
+                                    "color": "",
+                                    "bg": "",
+                                    "children": [
+                                        {
+                                            "component": "Text",
+                                            "id": "KYXMs6oQ2L",
+                                            "text": {
+                                                "en": "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you."
+                                            },
+                                            "color": "darkgrey"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "component": "Box",
+                                    "id": "aTvetNmKyJ",
+                                    "width": 0.3,
+                                    "p": 0,
+                                    "m": 0,
+                                    "fontSize": 0,
+                                    "color": "",
+                                    "bg": "",
+                                    "children": [
+                                        {
+                                            "component": "Image",
+                                            "id": "J_VhMt6isl",
+                                            "source": "images/bg-with-logo.jpg",
+                                            "css": {
+                                                "width": "100%"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "component": "Flex",
+                            "id": "VRHCPDc3-",
+                            "justifyContent": "space-between",
+                            "flexDirection": "",
+                            "children": [
+                                {
+                                    "component": "Box",
+                                    "id": "R4PQiCgOpo",
+                                    "p": 0,
+                                    "m": 0,
+                                    "fontSize": 0,
+                                    "width": 1,
+                                    "color": "",
+                                    "bg": "",
+                                    "children": [
+                                        {
+                                            "component": "Text",
+                                            "id": "6bH_UHy0PS",
+                                            "text": {
+                                                "en": "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page."
+                                            },
+                                            "color": ""
+                                        },
+                                        {
+                                            "component": "Text",
+                                            "id": "351Aqvxmg7",
+                                            "text": {
+                                                "en": "This is a great space to write long text about your company and your services. You can use this space to go into a little more detail about your company. "
+                                            },
+                                            "color": ""
+                                        }
+                                    ]
+                                },
+                                {
+                                    "component": "Image",
+                                    "id": "PnoZvze0cV",
+                                    "source": "images/bg-with-logo.jpg",
+                                    "width": 291,
+                                    "height": 291
+                                },
+                                {
+                                    "component": "Heading",
+                                    "id": "34uA0pS2xu",
+                                    "text": {
+                                        "en": "SPORN*HOUSE,*PARIS"
+                                    },
+                                    "color": "",
+                                    "as": "h1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "component": "LoadingOverlay",
+            "id": "gfDo5OG5-L",
+            "color": "black",
+            "bg": "white"
+        }
+    ],
+    "_lastUpdated": "2020-09-13T20:12:39.601Z",
+    "initialState": {}
+}
