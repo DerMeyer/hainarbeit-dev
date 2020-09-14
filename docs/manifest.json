@@ -1,12 +1,8 @@
 {
-    "name": "Glen Coden App",
-    "icons": [
-        {
-            "src": "favicon.png",
-            "type": "image/png",
-            "sizes": "32x32"
-        }
-    ],
+    "name": "Hainarbeit",
+    "icons": [],
     "start_url": ".",
-    "display": "standalone"
+    "display": "standalone",
+    "theme_color": "#fff",
+    "background_color": "#fff"
 }
