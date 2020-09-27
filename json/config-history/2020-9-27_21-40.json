@@ -1,0 +1,757 @@
+{
+    "title": "Hainarbeit",
+    "description": "Shared working space by Volkspark Friedrichshain park in Berlin.",
+    "global": {
+        "fontTypes": [
+            {
+                "name": "'Josefin Sans', 'sans-serif'",
+                "url": "https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap"
+            }
+        ],
+        "contentSize": [
+            {
+                "width": 0.9,
+                "height": 0.9
+            },
+            {
+                "width": 1,
+                "height": 0.9
+            }
+        ],
+        "pageWidth": 1,
+        "maxContentWidth": 1100,
+        "bg": "white",
+        "fadeInTime": 0.5,
+        "loadingTimeout": 10,
+        "usePortraitImages": true,
+        "maxPageWidth": 0
+    },
+    "theme": {
+        "breakpoints": [
+            "576px",
+            "768px",
+            "992px",
+            "1200px"
+        ],
+        "fontSizes": [
+            16,
+            24,
+            32,
+            48,
+            80
+        ],
+        "colors": {
+            "black": "#000",
+            "lightgrey": "#EDEDED",
+            "darkgrey": "#2F2E2E",
+            "heading": "#2F2E2E",
+            "white": "#fff"
+        },
+        "space": [
+            0,
+            4,
+            8,
+            16,
+            32,
+            64,
+            128,
+            256
+        ],
+        "fonts": {
+            "body": "Josefin Sans",
+            "heading": "Josefin Sans",
+            "monospace": "Josefin Sans"
+        },
+        "fontWeights": {
+            "body": 400,
+            "heading": 700,
+            "bold": 700
+        },
+        "lineHeights": {
+            "body": 1.5,
+            "heading": 1.25,
+            "small": 1
+        },
+        "shadows": {
+            "small": "0 0 4px rgba(0, 0, 0, .125)",
+            "large": "0 0 24px rgba(0, 0, 0, .125)"
+        },
+        "variants": {
+            "tileParagraph": {
+                "color": "darkgrey",
+                "fontSize": 0,
+                "css": {
+                    "marginTop": 0
+                }
+            },
+            "tileHeading": {
+                "color": "heading",
+                "fontSize": 4,
+                "lineHeight": "small",
+                "css": {
+                    "marginTop": 0
+                }
+            }
+        },
+        "text": {},
+        "buttons": {
+            "primary": {
+                "color": "darkgrey"
+            }
+        }
+    },
+    "components": [
+        {
+            "component": "ClassicNav",
+            "id": "w4t49mzuh",
+            "burger": [
+                true,
+                false
+            ],
+            "width": 1,
+            "height": 120,
+            "split": 1,
+            "bg": "white",
+            "fromGlobal": [
+                "contentSize",
+                "maxContentWidth"
+            ],
+            "children": [
+                {
+                    "component": "Svg",
+                    "id": "X5h1hvJCR6",
+                    "name": "Logo",
+                    "width": 100
+                }
+            ]
+        },
+        {
+            "component": "Page",
+            "id": "WWtuJKCxV",
+            "rows": 0,
+            "minHeight": 0,
+            "fromGlobal": [
+                "contentSize",
+                "maxContentWidth",
+                "pageWidth",
+                "maxPageWidth"
+            ],
+            "children": [
+                {
+                    "component": "Image",
+                    "id": "_MbT9niG7",
+                    "source": "images/bg-with-logo.jpg",
+                    "ratio": 1.5,
+                    "subscribeToGlobalLoading": true,
+                    "loadAfterGlobalLoading": false
+                },
+                {
+                    "component": "Flex",
+                    "id": "FtK3uLVUd6",
+                    "flexDirection": "column",
+                    "children": [
+                        {
+                            "component": "Box",
+                            "id": "uP3yrDrpt",
+                            "p": 5,
+                            "pb": 4,
+                            "width": 1,
+                            "children": [
+                                {
+                                    "component": "Heading",
+                                    "id": "BarhuT27zC",
+                                    "text": {
+                                        "en": "Moin Moin"
+                                    },
+                                    "color": "heading",
+                                    "as": "h2"
+                                }
+                            ]
+                        },
+                        {
+                            "component": "Flex",
+                            "id": "b-Yad2HG1",
+                            "justifyContent": "space-between",
+                            "p": 5,
+                            "children": [
+                                {
+                                    "component": "Box",
+                                    "id": "Mdp_67-hR",
+                                    "width": 0.3,
+                                    "children": [
+                                        {
+                                            "component": "Heading",
+                                            "id": "pwjwhljT62",
+                                            "text": {
+                                                "en": "SAN*JUAN*VILLA"
+                                            },
+                                            "as": "h1",
+                                            "variant": "tileHeading"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "component": "Box",
+                                    "id": "ScvxHbHhYE",
+                                    "width": 0.3,
+                                    "children": [
+                                        {
+                                            "component": "Text",
+                                            "id": "KYXMs6oQ2L",
+                                            "text": {
+                                                "de": "LULILULILAAAAA",
+                                                "en": "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you."
+                                            },
+                                            "variant": "tileParagraph"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "component": "Box",
+                                    "id": "aTvetNmKyJ",
+                                    "width": 0.3,
+                                    "children": [
+                                        {
+                                            "component": "Image",
+                                            "id": "J_VhMt6isl",
+                                            "source": "images/window-table.jpg",
+                                            "width": 291,
+                                            "height": 291,
+                                            "loadAfterGlobalLoading": true
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "component": "Flex",
+                            "id": "OdjemiYUv",
+                            "justifyContent": "space-between",
+                            "p": 5,
+                            "children": [
+                                {
+                                    "component": "Box",
+                                    "id": "9mQokWuFom",
+                                    "width": 0.3,
+                                    "children": [
+                                        {
+                                            "component": "Text",
+                                            "id": "dnwGRdENOn",
+                                            "text": {
+                                                "en": "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page."
+                                            },
+                                            "variant": "tileParagraph"
+                                        },
+                                        {
+                                            "component": "Text",
+                                            "id": "BtQ3wNTmNa",
+                                            "text": {
+                                                "en": "This is a great space to write long text about your company and your services. You can use this space to go into a little more detail about your company. "
+                                            },
+                                            "variant": "tileParagraph"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "component": "Box",
+                                    "id": "3yVqNnQt8q",
+                                    "width": 0.3,
+                                    "children": [
+                                        {
+                                            "component": "Image",
+                                            "id": "_pnvB4V_q4",
+                                            "source": "images/kitchen.jpg",
+                                            "width": 291,
+                                            "height": 291,
+                                            "ratio": 0.75,
+                                            "loadAfterGlobalLoading": true,
+                                            "subscribeToGlobalLoading": false
+                                        }
+                                    ]
+                                },
+                                {
+                                    "component": "Box",
+                                    "id": "W9Z6SmRfKG",
+                                    "width": 0.3,
+                                    "children": [
+                                        {
+                                            "component": "Heading",
+                                            "id": "Rca3J4YoL4",
+                                            "text": {
+                                                "en": "SPORN*HOUSE,*PARIS"
+                                            },
+                                            "as": "h1",
+                                            "variant": "tileHeading"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "component": "Flex",
+                            "id": "Tm4KfMK177",
+                            "justifyContent": "space-between",
+                            "p": 5,
+                            "children": [
+                                {
+                                    "component": "Box",
+                                    "id": "E0Pd9ZPcSR",
+                                    "width": 0.3,
+                                    "children": [
+                                        {
+                                            "component": "Heading",
+                                            "id": "b8sGErO7l8",
+                                            "text": {
+                                                "en": "SAN*JUAN*VILLA"
+                                            },
+                                            "as": "h1",
+                                            "variant": "tileHeading"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "component": "Box",
+                                    "id": "8g-S0NHpJs",
+                                    "width": 0.3,
+                                    "children": [
+                                        {
+                                            "component": "Text",
+                                            "id": "ImILUopG3L",
+                                            "text": {
+                                                "en": "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you."
+                                            },
+                                            "variant": "tileParagraph"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "component": "Box",
+                                    "id": "VpA41sYj6W",
+                                    "width": 0.3,
+                                    "children": [
+                                        {
+                                            "component": "Image",
+                                            "id": "jNDoUP3Lfu",
+                                            "source": "images/meeting.jpg",
+                                            "width": 291,
+                                            "height": 291,
+                                            "loadAfterGlobalLoading": true,
+                                            "ratio": 0.75,
+                                            "subscribeToGlobalLoading": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "component": "FlyOverBox",
+            "id": "fxTwMcnBK",
+            "height": 500,
+            "children": [
+                {
+                    "component": "Image",
+                    "id": "FXT5inW2v",
+                    "source": "images/bg-with-logo.jpg",
+                    "ratio": 1.5,
+                    "subscribeToGlobalLoading": false,
+                    "loadAfterGlobalLoading": true
+                }
+            ]
+        },
+        {
+            "component": "Page",
+            "id": "nMyMSYVpl",
+            "rows": 0,
+            "minHeight": 0,
+            "fromGlobal": [
+                "contentSize",
+                "maxContentWidth",
+                "pageWidth",
+                "maxPageWidth"
+            ],
+            "children": [
+                {
+                    "component": "Flex",
+                    "id": "HBNJTEgxR",
+                    "flexDirection": "column",
+                    "children": [
+                        {
+                            "component": "Flex",
+                            "id": "FnRT2DYbr4",
+                            "justifyContent": "space-between",
+                            "p": 5,
+                            "children": [
+                                {
+                                    "component": "Box",
+                                    "id": "Xh3rJslyFKk",
+                                    "width": 0.3,
+                                    "children": [
+                                        {
+                                            "component": "Text",
+                                            "id": "OP3uElYLh8x",
+                                            "text": {
+                                                "en": "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page."
+                                            },
+                                            "variant": "tileParagraph"
+                                        },
+                                        {
+                                            "component": "Text",
+                                            "id": "fILjaWaCktI",
+                                            "text": {
+                                                "en": "This is a great space to write long text about your company and your services. You can use this space to go into a little more detail about your company. "
+                                            },
+                                            "variant": "tileParagraph"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "component": "Box",
+                                    "id": "TVuP7ykTsZ8",
+                                    "width": 0.3,
+                                    "children": [
+                                        {
+                                            "component": "Image",
+                                            "id": "Vlt0mmMertH",
+                                            "source": "images/garden.jpg",
+                                            "width": 291,
+                                            "height": 291,
+                                            "ratio": 0.75,
+                                            "loadAfterGlobalLoading": true,
+                                            "subscribeToGlobalLoading": false
+                                        }
+                                    ]
+                                },
+                                {
+                                    "component": "Box",
+                                    "id": "rZfmGlfGlZ9",
+                                    "width": 0.3,
+                                    "children": [
+                                        {
+                                            "component": "Heading",
+                                            "id": "DjTNv414IDw",
+                                            "text": {
+                                                "en": "SPORN*HOUSE,*PARIS"
+                                            },
+                                            "as": "h1",
+                                            "variant": "tileHeading"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "component": "Flex",
+                    "id": "aRKLoYp4Q",
+                    "justifyContent": "space-between",
+                    "p": 3,
+                    "children": [
+                        {
+                            "component": "Flex",
+                            "id": "zVkK9my4Yf",
+                            "alignItems": "center",
+                            "width": 0.3,
+                            "p": 2,
+                            "children": [
+                                {
+                                    "component": "Svg",
+                                    "id": "2kzIIX1btg",
+                                    "name": "Desk",
+                                    "width": 60
+                                },
+                                {
+                                    "component": "Text",
+                                    "id": "E5us9Z4jwa",
+                                    "text": {
+                                        "en": "einen großen Schreibtisch (125 x 80 cm)"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "component": "Flex",
+                            "id": "Elj2tLmP7A",
+                            "alignItems": "center",
+                            "width": 0.3,
+                            "p": 2,
+                            "children": [
+                                {
+                                    "component": "Svg",
+                                    "id": "sHN0N3Bka2",
+                                    "name": "Rollcontainer",
+                                    "width": 60,
+                                    "color": "lightgrey"
+                                },
+                                {
+                                    "component": "Text",
+                                    "id": "birMHD_m-B",
+                                    "text": {
+                                        "en": "Rollcontainer"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "component": "Flex",
+                            "id": "vCU5HkYlRp",
+                            "alignItems": "center",
+                            "width": 0.3,
+                            "p": 2,
+                            "children": [
+                                {
+                                    "component": "Svg",
+                                    "id": "RhCPSbYeKa",
+                                    "name": "Wifi",
+                                    "width": 60,
+                                    "color": "lightgrey"
+                                },
+                                {
+                                    "component": "Text",
+                                    "id": "KmFC5vm3xJ",
+                                    "text": {
+                                        "en": "High Speed WLAN (250 Mbit/s)"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "component": "Flex",
+                    "id": "aWrDSym6CD",
+                    "justifyContent": "space-between",
+                    "p": 3,
+                    "children": [
+                        {
+                            "component": "Flex",
+                            "id": "bOzDEAWG5-",
+                            "alignItems": "center",
+                            "width": 0.3,
+                            "p": 2,
+                            "children": [
+                                {
+                                    "component": "Svg",
+                                    "id": "Iq3vJInyEw",
+                                    "name": "Oekostrom",
+                                    "width": 60
+                                },
+                                {
+                                    "component": "Text",
+                                    "id": "CmBQP9xCei",
+                                    "text": {
+                                        "en": "Ökostrom"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "component": "Flex",
+                            "id": "QVOeSl2T9L",
+                            "alignItems": "center",
+                            "width": 0.3,
+                            "p": 2,
+                            "children": [
+                                {
+                                    "component": "Svg",
+                                    "id": "Tkpom0E6RA",
+                                    "name": "Coffee",
+                                    "width": 60,
+                                    "color": "lightgrey"
+                                },
+                                {
+                                    "component": "Text",
+                                    "id": "HdEvGSUebEn",
+                                    "text": {
+                                        "en": "Kaffee / Tee Flatrate"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "component": "Flex",
+                            "id": "lwbVzHpSHmZ",
+                            "alignItems": "center",
+                            "width": 0.3,
+                            "p": 2,
+                            "children": [
+                                {
+                                    "component": "Svg",
+                                    "id": "2pyszWv74tC",
+                                    "name": "Meeting",
+                                    "width": 60,
+                                    "color": "lightgrey"
+                                },
+                                {
+                                    "component": "Text",
+                                    "id": "2FAGjw-6__S",
+                                    "text": {
+                                        "en": "Meeting-Raum"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "component": "Flex",
+                    "id": "6W5n99SMeyf",
+                    "justifyContent": "space-between",
+                    "p": 3,
+                    "children": [
+                        {
+                            "component": "Flex",
+                            "id": "sgC4KkRJQFB",
+                            "alignItems": "center",
+                            "width": 0.3,
+                            "p": 2,
+                            "children": [
+                                {
+                                    "component": "Svg",
+                                    "id": "qDA1nkiRB9F",
+                                    "name": "Telefon",
+                                    "width": 60
+                                },
+                                {
+                                    "component": "Text",
+                                    "id": "JOGv7prSGdt",
+                                    "text": {
+                                        "en": "Telefonier-Raum"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "component": "Flex",
+                            "id": "Cwb_DsEGekb",
+                            "alignItems": "center",
+                            "width": 0.3,
+                            "p": 2,
+                            "children": [
+                                {
+                                    "component": "Svg",
+                                    "id": "mAl9bCwPzgr",
+                                    "name": "Reinigung",
+                                    "width": 60,
+                                    "color": "lightgrey"
+                                },
+                                {
+                                    "component": "Text",
+                                    "id": "syYADb-EI57",
+                                    "text": {
+                                        "en": "wöchentliche Reinigung"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "component": "Flex",
+                            "id": "QYiBTIEl2WO",
+                            "alignItems": "center",
+                            "width": 0.3,
+                            "p": 2,
+                            "children": [
+                                {
+                                    "component": "Svg",
+                                    "id": "qT16HeWV1bM",
+                                    "name": "Kitchen",
+                                    "width": 60,
+                                    "color": "lightgrey"
+                                },
+                                {
+                                    "component": "Text",
+                                    "id": "aDA_yaXcUyC",
+                                    "text": {
+                                        "en": "Küche mit Herd, Ofen, Geschirrspüler und Mikrowelle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "component": "Flex",
+                    "id": "pRPFSD78ekv",
+                    "justifyContent": "space-between",
+                    "p": 3,
+                    "children": [
+                        {
+                            "component": "Flex",
+                            "id": "2MEkYVcs0j5",
+                            "alignItems": "center",
+                            "width": 0.3,
+                            "p": 2,
+                            "children": [
+                                {
+                                    "component": "Svg",
+                                    "id": "U3uv6SeA6Yo",
+                                    "name": "Garten",
+                                    "width": 60
+                                },
+                                {
+                                    "component": "Text",
+                                    "id": "KvVMEWguibs",
+                                    "text": {
+                                        "en": "ruhiger grüner Garten im Hinterhof"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "component": "Flex",
+                            "id": "j5nusEA_UHN",
+                            "alignItems": "center",
+                            "width": 0.3,
+                            "p": 2,
+                            "children": [
+                                {
+                                    "component": "Svg",
+                                    "id": "irtf5IJSnea",
+                                    "name": "Verkehr",
+                                    "width": 60,
+                                    "color": "lightgrey"
+                                },
+                                {
+                                    "component": "Text",
+                                    "id": "gmOK2dmbCSg",
+                                    "text": {
+                                        "en": "beste Verkehrsanbindung 10 min zum Alexanderplatz 25 min zum Hauptbahnhof"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "component": "Page",
+            "id": "rW77vMZYK",
+            "bg": "darkgrey",
+            "rows": 0,
+            "minHeight": 300,
+            "fromGlobal": [
+                "contentSize",
+                "maxContentWidth",
+                "pageWidth",
+                "maxPageWidth"
+            ],
+            "children": []
+        },
+        {
+            "component": "LoadingOverlay",
+            "id": "fkLCSJAq9",
+            "color": "black",
+            "bg": "white",
+            "fromGlobal": [
+                "fadeInTime"
+            ]
+        }
+    ],
+    "_lastUpdated": "2020-09-27T19:44:40.529Z",
+    "initialState": {}
+}

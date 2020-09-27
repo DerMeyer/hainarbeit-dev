@@ -1,0 +1,764 @@
+{
+    "title": "Hainarbeit",
+    "description": "Shared working space by Volkspark Friedrichshain park in Berlin.",
+    "global": {
+        "fontTypes": [
+            {
+                "name": "'Josefin Sans', 'sans-serif'",
+                "url": "https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap"
+            }
+        ],
+        "contentSize": [
+            {
+                "width": 0.9,
+                "height": 0.9
+            },
+            {
+                "width": 1,
+                "height": 0.9
+            }
+        ],
+        "pageWidth": 1,
+        "maxContentWidth": 1100,
+        "bg": "white",
+        "fadeInTime": 0.5,
+        "loadingTimeout": 10,
+        "usePortraitImages": true,
+        "maxPageWidth": 0
+    },
+    "theme": {
+        "breakpoints": [
+            "576px",
+            "768px",
+            "992px",
+            "1200px"
+        ],
+        "fontSizes": [
+            16,
+            24,
+            32,
+            48,
+            80
+        ],
+        "colors": {
+            "black": "#000",
+            "lightgrey": "#EDEDED",
+            "darkgrey": "#2F2E2E",
+            "heading": "#2F2E2E",
+            "white": "#fff"
+        },
+        "space": [
+            0,
+            4,
+            8,
+            16,
+            32,
+            64,
+            128,
+            256
+        ],
+        "fonts": {
+            "body": "Josefin Sans",
+            "heading": "Josefin Sans",
+            "monospace": "Josefin Sans"
+        },
+        "fontWeights": {
+            "body": 400,
+            "heading": 700,
+            "bold": 700
+        },
+        "lineHeights": {
+            "body": 1.5,
+            "heading": 1.25,
+            "small": 1
+        },
+        "shadows": {
+            "small": "0 0 4px rgba(0, 0, 0, .125)",
+            "large": "0 0 24px rgba(0, 0, 0, .125)"
+        },
+        "variants": {
+            "tileParagraph": {
+                "color": "darkgrey",
+                "fontSize": 0,
+                "css": {
+                    "marginTop": 0
+                }
+            },
+            "tileHeading": {
+                "color": "heading",
+                "fontSize": 4,
+                "lineHeight": "small",
+                "css": {
+                    "marginTop": 0
+                }
+            }
+        },
+        "text": {},
+        "buttons": {
+            "primary": {
+                "color": "darkgrey"
+            }
+        }
+    },
+    "components": [
+        {
+            "component": "ClassicNav",
+            "id": "w4t49mzuh",
+            "burger": [
+                true,
+                false
+            ],
+            "width": 1,
+            "height": 120,
+            "split": 1,
+            "bg": "white",
+            "fromGlobal": [
+                "contentSize",
+                "maxContentWidth"
+            ],
+            "children": [
+                {
+                    "component": "Svg",
+                    "id": "X5h1hvJCR6",
+                    "name": "Kitchen",
+                    "width": 100
+                }
+            ]
+        },
+        {
+            "component": "Page",
+            "id": "WWtuJKCxV",
+            "rows": 0,
+            "minHeight": 0,
+            "fromGlobal": [
+                "contentSize",
+                "maxContentWidth",
+                "pageWidth",
+                "maxPageWidth"
+            ],
+            "children": [
+                {
+                    "component": "Image",
+                    "id": "_MbT9niG7",
+                    "source": "images/bg-with-logo.jpg",
+                    "ratio": 1.5,
+                    "subscribeToGlobalLoading": true,
+                    "loadAfterGlobalLoading": false
+                },
+                {
+                    "component": "Flex",
+                    "id": "FtK3uLVUd6",
+                    "flexDirection": "column",
+                    "children": [
+                        {
+                            "component": "Box",
+                            "id": "uP3yrDrpt",
+                            "p": 5,
+                            "pb": 4,
+                            "width": 1,
+                            "children": [
+                                {
+                                    "component": "Heading",
+                                    "id": "BarhuT27zC",
+                                    "text": {
+                                        "en": "Moin Moin"
+                                    },
+                                    "color": "heading",
+                                    "as": "h2"
+                                }
+                            ]
+                        },
+                        {
+                            "component": "Flex",
+                            "id": "b-Yad2HG1",
+                            "justifyContent": "space-between",
+                            "p": 5,
+                            "children": [
+                                {
+                                    "component": "Box",
+                                    "id": "Mdp_67-hR",
+                                    "width": 0.3,
+                                    "children": [
+                                        {
+                                            "component": "Heading",
+                                            "id": "pwjwhljT62",
+                                            "text": {
+                                                "en": "SAN*JUAN*VILLA"
+                                            },
+                                            "as": "h1",
+                                            "variant": "tileHeading"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "component": "Box",
+                                    "id": "ScvxHbHhYE",
+                                    "width": 0.3,
+                                    "children": [
+                                        {
+                                            "component": "Text",
+                                            "id": "KYXMs6oQ2L",
+                                            "text": {
+                                                "de": "LULILULILAAAAA",
+                                                "en": "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you."
+                                            },
+                                            "variant": "tileParagraph"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "component": "Box",
+                                    "id": "aTvetNmKyJ",
+                                    "width": 0.3,
+                                    "children": [
+                                        {
+                                            "component": "Image",
+                                            "id": "J_VhMt6isl",
+                                            "source": "images/window-table.jpg",
+                                            "width": 291,
+                                            "height": 291,
+                                            "loadAfterGlobalLoading": true
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "component": "Flex",
+                            "id": "OdjemiYUv",
+                            "justifyContent": "space-between",
+                            "p": 5,
+                            "children": [
+                                {
+                                    "component": "Box",
+                                    "id": "9mQokWuFom",
+                                    "width": 0.3,
+                                    "children": [
+                                        {
+                                            "component": "Text",
+                                            "id": "dnwGRdENOn",
+                                            "text": {
+                                                "en": "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page."
+                                            },
+                                            "variant": "tileParagraph"
+                                        },
+                                        {
+                                            "component": "Text",
+                                            "id": "BtQ3wNTmNa",
+                                            "text": {
+                                                "en": "This is a great space to write long text about your company and your services. You can use this space to go into a little more detail about your company. "
+                                            },
+                                            "variant": "tileParagraph"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "component": "Box",
+                                    "id": "3yVqNnQt8q",
+                                    "width": 0.3,
+                                    "children": [
+                                        {
+                                            "component": "Image",
+                                            "id": "_pnvB4V_q4",
+                                            "source": "images/kitchen.jpg",
+                                            "width": 291,
+                                            "height": 291,
+                                            "ratio": 0.75,
+                                            "loadAfterGlobalLoading": true,
+                                            "subscribeToGlobalLoading": false
+                                        }
+                                    ]
+                                },
+                                {
+                                    "component": "Box",
+                                    "id": "W9Z6SmRfKG",
+                                    "width": 0.3,
+                                    "children": [
+                                        {
+                                            "component": "Heading",
+                                            "id": "Rca3J4YoL4",
+                                            "text": {
+                                                "en": "SPORN*HOUSE,*PARIS"
+                                            },
+                                            "as": "h1",
+                                            "variant": "tileHeading"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "component": "Flex",
+                            "id": "Tm4KfMK177",
+                            "justifyContent": "space-between",
+                            "p": 5,
+                            "children": [
+                                {
+                                    "component": "Box",
+                                    "id": "E0Pd9ZPcSR",
+                                    "width": 0.3,
+                                    "children": [
+                                        {
+                                            "component": "Heading",
+                                            "id": "b8sGErO7l8",
+                                            "text": {
+                                                "en": "SAN*JUAN*VILLA"
+                                            },
+                                            "as": "h1",
+                                            "variant": "tileHeading"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "component": "Box",
+                                    "id": "8g-S0NHpJs",
+                                    "width": 0.3,
+                                    "children": [
+                                        {
+                                            "component": "Text",
+                                            "id": "ImILUopG3L",
+                                            "text": {
+                                                "en": "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you."
+                                            },
+                                            "variant": "tileParagraph"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "component": "Box",
+                                    "id": "VpA41sYj6W",
+                                    "width": 0.3,
+                                    "children": [
+                                        {
+                                            "component": "Image",
+                                            "id": "jNDoUP3Lfu",
+                                            "source": "images/meeting.jpg",
+                                            "width": 291,
+                                            "height": 291,
+                                            "loadAfterGlobalLoading": true,
+                                            "ratio": 0.75,
+                                            "subscribeToGlobalLoading": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "component": "FlyOverBox",
+            "id": "fxTwMcnBK",
+            "height": 500,
+            "children": [
+                {
+                    "component": "Image",
+                    "id": "FXT5inW2v",
+                    "source": "images/bg-with-logo.jpg",
+                    "ratio": 1.5,
+                    "subscribeToGlobalLoading": false,
+                    "loadAfterGlobalLoading": true
+                }
+            ]
+        },
+        {
+            "component": "Page",
+            "id": "nMyMSYVpl",
+            "rows": 0,
+            "minHeight": 0,
+            "fromGlobal": [
+                "contentSize",
+                "maxContentWidth",
+                "pageWidth",
+                "maxPageWidth"
+            ],
+            "children": [
+                {
+                    "component": "Flex",
+                    "id": "HBNJTEgxR",
+                    "flexDirection": "column",
+                    "children": [
+                        {
+                            "component": "Flex",
+                            "id": "FnRT2DYbr4",
+                            "justifyContent": "space-between",
+                            "p": 5,
+                            "children": [
+                                {
+                                    "component": "Box",
+                                    "id": "Xh3rJslyFKk",
+                                    "width": 0.3,
+                                    "children": [
+                                        {
+                                            "component": "Text",
+                                            "id": "OP3uElYLh8x",
+                                            "text": {
+                                                "en": "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page."
+                                            },
+                                            "variant": "tileParagraph"
+                                        },
+                                        {
+                                            "component": "Text",
+                                            "id": "fILjaWaCktI",
+                                            "text": {
+                                                "en": "This is a great space to write long text about your company and your services. You can use this space to go into a little more detail about your company. "
+                                            },
+                                            "variant": "tileParagraph"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "component": "Box",
+                                    "id": "TVuP7ykTsZ8",
+                                    "width": 0.3,
+                                    "children": [
+                                        {
+                                            "component": "Image",
+                                            "id": "Vlt0mmMertH",
+                                            "source": "images/garden.jpg",
+                                            "width": 291,
+                                            "height": 291,
+                                            "ratio": 0.75,
+                                            "loadAfterGlobalLoading": true,
+                                            "subscribeToGlobalLoading": false
+                                        }
+                                    ]
+                                },
+                                {
+                                    "component": "Box",
+                                    "id": "rZfmGlfGlZ9",
+                                    "width": 0.3,
+                                    "children": [
+                                        {
+                                            "component": "Heading",
+                                            "id": "DjTNv414IDw",
+                                            "text": {
+                                                "en": "SPORN*HOUSE,*PARIS"
+                                            },
+                                            "as": "h1",
+                                            "variant": "tileHeading"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "component": "Flex",
+                    "id": "oDGrIN7aX",
+                    "p": 5,
+                    "children": [
+                        {
+                            "component": "Flex",
+                            "id": "Li03X95BnW",
+                            "width": 0.5,
+                            "py": 3,
+                            "children": [
+                                {
+                                    "component": "Svg",
+                                    "id": "u8TkihVqO6",
+                                    "name": "Desk",
+                                    "width": 60
+                                },
+                                {
+                                    "component": "Text",
+                                    "id": "7Z2TmosOis",
+                                    "text": {
+                                        "en": "- einen großen Schreibtisch (125 x 80 cm)"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "component": "Flex",
+                            "id": "1tNJh78u8Z",
+                            "width": 0.5,
+                            "py": 3,
+                            "children": [
+                                {
+                                    "component": "Svg",
+                                    "id": "lIg7KYSmll",
+                                    "name": "Rollcontainer",
+                                    "width": 60,
+                                    "css": {
+                                        "marginRight": "20px"
+                                    }
+                                },
+                                {
+                                    "component": "Text",
+                                    "id": "YAS7Go_hHO",
+                                    "text": {
+                                        "en": "- Rollcontainer"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "component": "Flex",
+                    "id": "V-CkmJI_l1",
+                    "p": 5,
+                    "children": [
+                        {
+                            "component": "Flex",
+                            "id": "kRvRg9kgIA",
+                            "width": 0.5,
+                            "py": 3,
+                            "children": [
+                                {
+                                    "component": "Svg",
+                                    "id": "EC3MqiW1M4",
+                                    "name": "Desk",
+                                    "width": 60
+                                },
+                                {
+                                    "component": "Text",
+                                    "id": "5A5WTDZyl7",
+                                    "text": {
+                                        "en": "- einen großen Schreibtisch (125 x 80 cm)"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "component": "Flex",
+                            "id": "AkHphSpcaW",
+                            "width": 0.5,
+                            "py": 3,
+                            "children": [
+                                {
+                                    "component": "Svg",
+                                    "id": "xpY-EMfUr6",
+                                    "name": "Rollcontainer",
+                                    "width": 60,
+                                    "css": {
+                                        "marginRight": "20px"
+                                    }
+                                },
+                                {
+                                    "component": "Text",
+                                    "id": "NA00dg4WUR",
+                                    "text": {
+                                        "en": "- Rollcontainer"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "component": "Flex",
+                    "id": "eF0ac6robV",
+                    "p": 5,
+                    "children": [
+                        {
+                            "component": "Flex",
+                            "id": "OlnrCcw1-z",
+                            "width": 0.5,
+                            "py": 3,
+                            "children": [
+                                {
+                                    "component": "Svg",
+                                    "id": "83G-DnfhJhW",
+                                    "name": "Desk",
+                                    "width": 60
+                                },
+                                {
+                                    "component": "Text",
+                                    "id": "EVUhCGyNAOz",
+                                    "text": {
+                                        "en": "- einen großen Schreibtisch (125 x 80 cm)"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "component": "Flex",
+                            "id": "DXZ8BO425Ft",
+                            "width": 0.5,
+                            "py": 3,
+                            "children": [
+                                {
+                                    "component": "Svg",
+                                    "id": "8790LK0_RfE",
+                                    "name": "Rollcontainer",
+                                    "width": 60,
+                                    "css": {
+                                        "marginRight": "20px"
+                                    }
+                                },
+                                {
+                                    "component": "Text",
+                                    "id": "XJdxxe22Wn-",
+                                    "text": {
+                                        "en": "- Rollcontainer"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "component": "Flex",
+                    "id": "LS_7l-pa0K4",
+                    "p": 5,
+                    "children": [
+                        {
+                            "component": "Flex",
+                            "id": "WhIcLcKyb_q",
+                            "width": 0.5,
+                            "py": 3,
+                            "children": [
+                                {
+                                    "component": "Svg",
+                                    "id": "1dK2rY8YffI",
+                                    "name": "Desk",
+                                    "width": 60
+                                },
+                                {
+                                    "component": "Text",
+                                    "id": "7w_ifMBCHtp",
+                                    "text": {
+                                        "en": "- einen großen Schreibtisch (125 x 80 cm)"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "component": "Flex",
+                            "id": "Mh0LTr6UmIv",
+                            "width": 0.5,
+                            "py": 3,
+                            "children": [
+                                {
+                                    "component": "Svg",
+                                    "id": "5fuciKAC6B4",
+                                    "name": "Rollcontainer",
+                                    "width": 60,
+                                    "css": {
+                                        "marginRight": "20px"
+                                    }
+                                },
+                                {
+                                    "component": "Text",
+                                    "id": "SVkTWKHrEOB",
+                                    "text": {
+                                        "en": "- Rollcontainer"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "component": "Flex",
+                    "id": "lTGpUbUKfPj",
+                    "p": 5,
+                    "children": [
+                        {
+                            "component": "Flex",
+                            "id": "W2wEp7PogDK",
+                            "width": 0.5,
+                            "py": 3,
+                            "children": [
+                                {
+                                    "component": "Svg",
+                                    "id": "Oars7xnZbvc",
+                                    "name": "Desk",
+                                    "width": 60
+                                },
+                                {
+                                    "component": "Text",
+                                    "id": "KGc-fL7UwUA",
+                                    "text": {
+                                        "en": "- einen großen Schreibtisch (125 x 80 cm)"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "component": "Flex",
+                            "id": "d5tAEG0xYvo",
+                            "width": 0.5,
+                            "py": 3,
+                            "children": [
+                                {
+                                    "component": "Svg",
+                                    "id": "yflatbmHf03",
+                                    "name": "Rollcontainer",
+                                    "width": 60,
+                                    "css": {
+                                        "marginRight": "20px"
+                                    }
+                                },
+                                {
+                                    "component": "Text",
+                                    "id": "ahSZJXm3BOY",
+                                    "text": {
+                                        "en": "- Rollcontainer"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "component": "Flex",
+                    "id": "pbi2vBix0Bl",
+                    "p": 5,
+                    "children": [
+                        {
+                            "component": "Flex",
+                            "id": "7lC-HlTNmSX",
+                            "width": 0.5,
+                            "py": 3,
+                            "children": [
+                                {
+                                    "component": "Svg",
+                                    "id": "QocLe1lDJgZ",
+                                    "name": "Desk",
+                                    "width": 60
+                                },
+                                {
+                                    "component": "Text",
+                                    "id": "0YxumDrWEXz",
+                                    "text": {
+                                        "en": "- einen großen Schreibtisch (125 x 80 cm)"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "component": "Page",
+            "id": "rW77vMZYK",
+            "bg": "darkgrey",
+            "rows": 0,
+            "minHeight": 300,
+            "fromGlobal": [
+                "contentSize",
+                "maxContentWidth",
+                "pageWidth",
+                "maxPageWidth"
+            ],
+            "children": []
+        },
+        {
+            "component": "LoadingOverlay",
+            "id": "fkLCSJAq9",
+            "color": "black",
+            "bg": "white",
+            "fromGlobal": [
+                "fadeInTime"
+            ]
+        }
+    ],
+    "_lastUpdated": "2020-09-27T19:26:48.692Z",
+    "initialState": {}
+}
