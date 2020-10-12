@@ -78,10 +78,20 @@
         },
         "text": {
             "navButton": {
-                "color": "darkgrey",
+                "color": [
+                    "lightgrey",
+                    "darkgrey"
+                ],
                 "fontSize": 1,
                 "fontStyle": "italic",
-                "ml": 5
+                "ml": [
+                    0,
+                    5
+                ],
+                "mb": [
+                    3,
+                    0
+                ]
             },
             "tileParagraph": {
                 "color": "darkgrey",
@@ -139,32 +149,46 @@
                         true,
                         false
                     ],
-                    "width": 1,
+                    "widthFactor": 1,
                     "height": [
                         90,
                         150
                     ],
                     "split": 1,
-                    "bg": "#fff",
+                    "color": "black",
+                    "bg": "white",
                     "fromGlobal": [
                         "contentSize",
                         "maxContentWidth"
                     ],
-                    "css": [
-                        {
-                            "padding": "0 5%"
-                        },
-                        {}
-                    ],
                     "children": [
                         {
-                            "component": "Svg",
-                            "id": "dwv339xKT",
-                            "name": "Logo",
-                            "color": "darkgrey",
-                            "width": [
-                                80,
-                                110
+                            "component": "LinkRRD",
+                            "id": "ldX0GekFw",
+                            "to": "/",
+                            "children": [
+                                {
+                                    "component": "Svg",
+                                    "id": "dwv339xKT",
+                                    "name": "Logo",
+                                    "color": "darkgrey",
+                                    "css": [
+                                        null,
+                                        null,
+                                        null,
+                                        null,
+                                        {
+                                            "position": "absolute",
+                                            "left": "50px",
+                                            "top": "50%",
+                                            "transform": "translateY(-50%)"
+                                        }
+                                    ],
+                                    "width": [
+                                        80,
+                                        110
+                                    ]
+                                }
                             ]
                         },
                         {
@@ -705,7 +729,21 @@
                     "id": "KOtuqTFEmS",
                     "path": "/contact",
                     "children": [
-                        "Contact Form"
+                        {
+                            "component": "Page",
+                            "id": "Lgq6xwTfI",
+                            "rows": 0,
+                            "minHeight": 0,
+                            "fromGlobal": [
+                                "contentSize",
+                                "maxContentWidth",
+                                "pageWidth",
+                                "maxPageWidth"
+                            ],
+                            "children": [
+                                "Contact Form"
+                            ]
+                        }
                     ]
                 }
             ]
@@ -758,6 +796,6 @@
             ]
         }
     ],
-    "_lastUpdated": "2020-10-12T14:37:04.061Z",
+    "_lastUpdated": "2020-10-12T16:20:08.030Z",
     "initialState": {}
 }

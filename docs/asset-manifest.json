@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "./static/css/main.e2022f82.chunk.css",
-    "main.js": "./static/js/main.92c6cbba.chunk.js",
-    "main.js.map": "./static/js/main.92c6cbba.chunk.js.map",
+    "main.css": "./static/css/main.c59f85cb.chunk.css",
+    "main.js": "./static/js/main.489bb107.chunk.js",
+    "main.js.map": "./static/js/main.489bb107.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.4558fc93.js",
     "runtime-main.js.map": "./static/js/runtime-main.4558fc93.js.map",
-    "static/js/2.2b054aa8.chunk.js": "./static/js/2.2b054aa8.chunk.js",
-    "static/js/2.2b054aa8.chunk.js.map": "./static/js/2.2b054aa8.chunk.js.map",
+    "static/js/2.ff1027d0.chunk.js": "./static/js/2.ff1027d0.chunk.js",
+    "static/js/2.ff1027d0.chunk.js.map": "./static/js/2.ff1027d0.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.f3866b0d816a5ee3b16c05798d1c3666.js": "./precache-manifest.f3866b0d816a5ee3b16c05798d1c3666.js",
+    "precache-manifest.2fb9559e263c3e666687c66734514aae.js": "./precache-manifest.2fb9559e263c3e666687c66734514aae.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.e2022f82.chunk.css.map": "./static/css/main.e2022f82.chunk.css.map",
-    "static/js/2.2b054aa8.chunk.js.LICENSE": "./static/js/2.2b054aa8.chunk.js.LICENSE",
+    "static/css/main.c59f85cb.chunk.css.map": "./static/css/main.c59f85cb.chunk.css.map",
+    "static/js/2.ff1027d0.chunk.js.LICENSE": "./static/js/2.ff1027d0.chunk.js.LICENSE",
     "static/media/coffee.c83376c6.svg": "./static/media/coffee.c83376c6.svg",
     "static/media/desk.d09c315a.svg": "./static/media/desk.d09c315a.svg",
     "static/media/garten.4281a6db.svg": "./static/media/garten.4281a6db.svg",
     "static/media/kitchen.bc1c59c8.svg": "./static/media/kitchen.bc1c59c8.svg",
-    "static/media/logo.2971b05b.svg": "./static/media/logo.2971b05b.svg",
+    "static/media/logo.573662c8.svg": "./static/media/logo.573662c8.svg",
     "static/media/meeting.43b5659a.svg": "./static/media/meeting.43b5659a.svg",
     "static/media/oekostrom.058c7a12.svg": "./static/media/oekostrom.058c7a12.svg",
     "static/media/preis.bc247742.svg": "./static/media/preis.bc247742.svg",
@@ -28,8 +28,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.4558fc93.js",
-    "static/js/2.2b054aa8.chunk.js",
-    "static/css/main.e2022f82.chunk.css",
-    "static/js/main.92c6cbba.chunk.js"
+    "static/js/2.ff1027d0.chunk.js",
+    "static/css/main.c59f85cb.chunk.css",
+    "static/js/main.489bb107.chunk.js"
   ]
 }
