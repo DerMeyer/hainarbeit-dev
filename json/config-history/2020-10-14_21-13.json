@@ -763,8 +763,8 @@
                                         {
                                             "component": "Input",
                                             "id": "RiU4GMQOk",
-                                            "name": "",
-                                            "defaultValue": ""
+                                            "name": "test",
+                                            "defaultValue": "test"
                                         }
                                     ]
                                 }
@@ -822,6 +822,6 @@
             ]
         }
     ],
-    "_lastUpdated": "2020-10-13T12:32:25.698Z",
+    "_lastUpdated": "2020-10-14T19:53:13.192Z",
     "initialState": {}
 }
