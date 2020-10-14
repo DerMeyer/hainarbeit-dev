@@ -155,7 +155,8 @@
                         150
                     ],
                     "split": 1,
-                    "color": "black",
+                    "burgerColor": "black",
+                    "overlayColor": "darkgrey",
                     "bg": "white",
                     "fromGlobal": [
                         "contentSize",
@@ -394,6 +395,7 @@
                                 0,
                                 "50%"
                             ],
+                            "maxHeight": 550,
                             "children": [
                                 {
                                     "component": "Image",
@@ -733,7 +735,7 @@
                             "component": "Page",
                             "id": "Lgq6xwTfI",
                             "rows": 0,
-                            "minHeight": 0,
+                            "minHeight": 950,
                             "fromGlobal": [
                                 "contentSize",
                                 "maxContentWidth",
@@ -741,7 +743,31 @@
                                 "maxPageWidth"
                             ],
                             "children": [
-                                "Contact Form"
+                                {
+                                    "component": "Form",
+                                    "id": "63T59I0gF",
+                                    "width": 1,
+                                    "submitTo": "/",
+                                    "children": [
+                                        {
+                                            "component": "Text",
+                                            "id": "FcxBqZ0jEa",
+                                            "text": "Child One",
+                                            "fontStyle": "italic"
+                                        },
+                                        {
+                                            "component": "Text",
+                                            "id": "9c44KEqf5",
+                                            "text": "Child Two"
+                                        },
+                                        {
+                                            "component": "Input",
+                                            "id": "RiU4GMQOk",
+                                            "name": "",
+                                            "defaultValue": ""
+                                        }
+                                    ]
+                                }
                             ]
                         }
                     ]
@@ -780,7 +806,7 @@
                             "color": "black",
                             "lineHeight": 1.8,
                             "fontWeight": 400,
-                            "text": "Danziger Strasse 207**10407 Berlin**contact@hainarbeit.de"
+                            "text": "Danziger Strasse 207**10407 Berlin**hainarbeit@gmail.com"
                         }
                     ]
                 }
@@ -796,6 +822,6 @@
             ]
         }
     ],
-    "_lastUpdated": "2020-10-12T16:20:08.030Z",
+    "_lastUpdated": "2020-10-13T12:32:25.698Z",
     "initialState": {}
 }
