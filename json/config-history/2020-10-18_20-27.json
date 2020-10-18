@@ -735,7 +735,7 @@
                             "component": "Page",
                             "id": "Lgq6xwTfI",
                             "rows": 0,
-                            "minHeight": 950,
+                            "minHeight": 300,
                             "fromGlobal": [
                                 "contentSize",
                                 "maxContentWidth",
@@ -752,13 +752,13 @@
                                         {
                                             "component": "Text",
                                             "id": "FcxBqZ0jEa",
-                                            "text": "Child One",
+                                            "text": "Italic",
                                             "fontStyle": "italic"
                                         },
                                         {
                                             "component": "Text",
                                             "id": "9c44KEqf5",
-                                            "text": "Child Two"
+                                            "text": "Lime"
                                         },
                                         {
                                             "component": "Input",
@@ -768,6 +768,14 @@
                                         }
                                     ]
                                 }
+                            ]
+                        },
+                        {
+                            "component": "GoogleMaps",
+                            "id": "zSZ45Quld",
+                            "height": [
+                                320,
+                                645
                             ]
                         }
                     ]
@@ -822,6 +830,6 @@
             ]
         }
     ],
-    "_lastUpdated": "2020-10-14T19:53:13.192Z",
+    "_lastUpdated": "2020-10-18T18:27:27.359Z",
     "initialState": {}
 }
