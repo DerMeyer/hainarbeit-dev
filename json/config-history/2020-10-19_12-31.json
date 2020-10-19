@@ -129,6 +129,26 @@
             "iconListSvg": {
                 "width": 60,
                 "color": "darkgrey"
+            },
+            "formInput": {
+                "height": 42,
+                "p": "3px",
+                "pl": "12px",
+                "mb": 4,
+                "fontSize": 0,
+                "fontWeight": 300,
+                "color": "darkgrey"
+            },
+            "formTextarea": {
+                "height": 126,
+                "pt": "12px",
+                "pr": "10px",
+                "pb": "3px",
+                "pl": "16px",
+                "mb": 4,
+                "fontSize": 0,
+                "fontWeight": 300,
+                "color": "darkgrey"
             }
         },
         "buttons": {
@@ -735,39 +755,74 @@
                             "component": "Page",
                             "id": "Lgq6xwTfI",
                             "rows": 0,
-                            "minHeight": 300,
+                            "maxContentWidth": 850,
                             "fromGlobal": [
                                 "contentSize",
-                                "maxContentWidth",
                                 "pageWidth",
                                 "maxPageWidth"
                             ],
                             "children": [
                                 {
+                                    "component": "Heading",
+                                    "id": "ueHld_ZfK",
+                                    "text": {
+                                        "en": "BE IN**TOUCH"
+                                    },
+                                    "color": "black",
+                                    "fontSize": [
+                                        3,
+                                        4
+                                    ],
+                                    "fontWeight": 500,
+                                    "fontStyle": "italic",
+                                    "lineHeight": "small",
+                                    "as": "h1",
+                                    "my": 5
+                                },
+                                {
                                     "component": "Form",
                                     "id": "63T59I0gF",
                                     "width": 1,
+                                    "mb": 6,
                                     "submitTo": "/",
                                     "children": [
                                         {
                                             "component": "Input",
                                             "id": "BoyeZJCn2",
-                                            "name": "name"
+                                            "name": "name",
+                                            "variant": "formInput",
+                                            "width": [
+                                                1,
+                                                0.48
+                                            ]
                                         },
                                         {
                                             "component": "Input",
                                             "id": "RiU4GMQOk",
-                                            "name": "from"
+                                            "name": "from",
+                                            "variant": "formInput",
+                                            "width": [
+                                                1,
+                                                0.48
+                                            ],
+                                            "ml": [
+                                                null,
+                                                "4%"
+                                            ]
                                         },
                                         {
                                             "component": "Input",
                                             "id": "2MgiBmAE1",
-                                            "name": "subject"
+                                            "name": "subject",
+                                            "variant": "formInput",
+                                            "width": 1
                                         },
                                         {
-                                            "component": "Input",
-                                            "id": "uzDHMqkZnu",
-                                            "name": "text"
+                                            "component": "Textarea",
+                                            "id": "fQsmsu24-",
+                                            "name": "text",
+                                            "variant": "formTextarea",
+                                            "width": 1
                                         }
                                     ]
                                 }
@@ -833,6 +888,6 @@
             ]
         }
     ],
-    "_lastUpdated": "2020-10-18T18:57:30.913Z",
+    "_lastUpdated": "2020-10-19T10:57:31.387Z",
     "initialState": {}
 }
