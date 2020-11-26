@@ -255,17 +255,6 @@
                                     "id": "OFt4WBWldN",
                                     "variant": "navButton",
                                     "text": {
-                                        "0": "Y",
-                                        "1": "o",
-                                        "2": "u",
-                                        "3": "r",
-                                        "4": " ",
-                                        "5": "B",
-                                        "6": "u",
-                                        "7": "t",
-                                        "8": "t",
-                                        "9": "o",
-                                        "10": "n",
                                         "de": "Kontakt",
                                         "en": "Contact"
                                     }
@@ -282,7 +271,7 @@
                         90,
                         150
                     ],
-                    "showAfter": 0,
+                    "showAfter": 2,
                     "animationDuration": 0.7,
                     "bg": "lightgrey",
                     "color": "darkgrey",
@@ -1096,6 +1085,6 @@
             ]
         }
     ],
-    "_lastUpdated": "2020-11-24T12:25:21.594Z",
+    "_lastUpdated": "2020-11-26T13:57:51.164Z",
     "initialState": {}
 }
